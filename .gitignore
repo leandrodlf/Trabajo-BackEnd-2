@@ -1,0 +1,7 @@
+# Ignorar ambiente virtual
+ambiente/
+
+# Archivos compilados de Python
+*.pyc
+__pycache__/
+
