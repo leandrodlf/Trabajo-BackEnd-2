@@ -1,7 +1,7 @@
 Instalación y ejecución
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-Descargar el repositorio y entrar en la carpeta "Trabajo2":
+Descargar el repositorio y entrar en la carpeta "Trabajo-BackEnd-2":
 
 cd Trabajo-BackEnd-2
 o ejecutar una terminal dentro de la carpeta
@@ -50,4 +50,5 @@ http://127.0.0.1:8000/admin/
 Credenciales
 
 usuario: inacap
+
 password: inacap
