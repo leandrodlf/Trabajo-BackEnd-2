@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>About — Proyecto</title>
+
+  {% load static %}
+<link rel="stylesheet" href="{% static 'AppTrabajo1/style.css' %}">
+</head>
+<body>
+  <header>
+    <h1>Sobre mí</h1>
+    <p>Leandro — estudiante de informática, gamer a ratos, curioso, geek y nerd profesional</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Lo que hago</h2>
+      <ul>
+        <li>Experimentos con Python y JavaScript.</li>
+        <li>Batallas amistosas con Excel sin mouse.</li>
+        <li>CRUDs que no se caen (casi nunca 😅).</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Mi visión</h2>
+      <p>El futuro es una simbiosis humano–IA. Mientras llega, entreno el lado humano y dejo que la IA me dé una mano.</p>
+    </section>
+
+    <nav>
+      <a href="{% url 'AppTrabajo1:home' %}">Volver al inicio ⬅️</a>
+    </nav>
+  </main>
+
+  <footer>
+    <small>Este sitio está en constante update. No garantizo ausencia de bugs, sí buenas intenciones.</small>
+  </footer>
+</body>
+</html>

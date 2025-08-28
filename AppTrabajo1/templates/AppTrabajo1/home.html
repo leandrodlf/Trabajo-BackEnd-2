@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Home — Proyecto</title>
+
+  {% load static %}
+<link rel="stylesheet" href="{% static 'AppTrabajo1/style.css' %}">
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a mi rincón digital</h1>
+    <p>Donde el código se crea a base de dedicación y café ☕.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Estado del proyecto</h2>
+      <p>Versión 1.0 nivel noob — pero estable y con actualizaciones en camino.</p>
+      <p>Optimizado para mentes curiosas.</p>
+    </section>
+
+    <nav>
+      <a href="{% url 'AppTrabajo1:about' %}">Sobre mi 🚀</a>
+    </nav>
+  </main>
+
+  <footer>
+    <small>“Lo demas esta en proceso de aprendizaje.”</small>
+  </footer>
+</body>
+</html>
